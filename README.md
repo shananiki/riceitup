@@ -15,14 +15,19 @@ sudo fc-cache -f -v
 ```
 
 
-
 **Install [polybar](https://github.com/polybar/polybar) (Debian 11)**
 ```bash
 sudo apt install polybar
 ```
 
+**Install [rofi]([https://github.com/polybar/polybar](https://github.com/davatorium/rofi/blob/next/INSTALL.md)**
+```bash
+sudo apt install rofi
+```
 
-**If the -c or --config command line argument is specified, it will use the path given there**
+**Running by bar**
+If the -c or --config command line argument is specified, it will use the path given there.
 ```bash
 polybar top -c /PATH/TO/FILE
 ```
+
