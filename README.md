@@ -19,8 +19,8 @@ sudo fc-cache -f -v
 
 **Install [Numix Theme](https://github.com/numixproject/numix-gtk-theme) (Debian 11)**
 ```bash
-sudo apt-get install -y numix-gtk-theme
-sudo apt-get install -y numix-icon-theme
+sudo apt install numix-gtk-theme
+sudo apt install numix-icon-theme
 ```
 
 
