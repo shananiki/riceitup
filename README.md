@@ -20,7 +20,7 @@ sudo fc-cache -f -v
 sudo apt install polybar
 ```
 
-**Install [rofi](https://github.com/davatorium/rofi/blob/next/INSTALL.md) (Debian 11 and Ubuntu)**
+**Install [rofi](https://github.com/davatorium/rofi/blob/next/INSTALL.md) (Debian 11 or Ubuntu)**
 ```bash
 sudo apt install rofi
 ```
