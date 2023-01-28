@@ -2,7 +2,7 @@ This is still under development/configuration. If I change something I will add 
 
 # riceitup
 Hello, this is my personal configuration to rice up my Debian 11 experience.
-
+![rice](https://github.com/shananiki/riceitup/blob/main/rice.png?raw=true)
 ---
 
 
