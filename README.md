@@ -16,6 +16,15 @@ sudo mv otfs/* /usr/share/fonts/opentype/
 sudo fc-cache -f -v
 ```
 
+**Install [Awesome Font 5](https://use.fontawesome.com/releases/v5.15.4/fontawesome-free-5.15.4-desktop.zip)**
+```bash
+wget https://use.fontawesome.com/releases/v5.15.4/fontawesome-free-5.15.4-desktop.zip
+unzip fontawesome-free-5.15.4-desktop.zip
+cd unzip fontawesome-free-5.15.4-desktop
+sudo mv otfs/* /usr/share/fonts/opentype/
+sudo fc-cache -f -v
+```
+
 
 **Install [Numix Theme](https://github.com/numixproject/numix-gtk-theme) (Debian 11)**
 ```bash
