@@ -44,6 +44,12 @@ sudo apt install polybar
 sudo apt install rofi
 ```
 
+
+**Install Dolphin (Debian 11 or Ubuntu)**
+```bash
+sudo apt install dolphin
+```
+
 **Running my bar**
 
 If the -c or --config command line argument is specified, it will use the path given there.
