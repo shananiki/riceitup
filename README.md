@@ -2,8 +2,9 @@ This is still under development/configuration. If I change something I will add 
 
 # riceitup
 Hello, this is my personal configuration to rice up my Debian 11 experience.
-![rice](https://github.com/shananiki/riceitup/blob/main/rice.png?raw=true)
 ---
+![rice](https://github.com/shananiki/riceitup/blob/main/rice.png?raw=true)
+
 
 
 
@@ -43,7 +44,7 @@ sudo apt install polybar
 sudo apt install rofi
 ```
 
-**Running by bar**
+**Running my bar**
 
 If the -c or --config command line argument is specified, it will use the path given there.
 ```bash
