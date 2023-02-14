@@ -62,3 +62,22 @@ If the -c or --config command line argument is specified, it will use the path g
 polybar top -c /home/$USER/.config/polybar/config.ini
 ```
 
+----------
+
+Installing some better rofi themes [https://gitlab.com/vahnrr/rofi-menus/-/tree/rofi-1.5.4/](Thanks vahnrr)
+
+git clone https://gitlab.com/vahnrr/rofi-menus ~/.config/rofi
+chmod +x ~/.config/rofi/scripts/*
+~/.config/rofi/scripts/rofi-utils set-colorscheme dark-steel-blue
+
+Add ~/.local/bin to PATH
+```bash
+PATH=$PATH:~/.local/bin
+```
+
+Create symbolic link to rofi scripts
+```bash
+ln -s ~/.config/rofi/scripts/* ~/.local/bin/
+```
+
+
