@@ -199,5 +199,6 @@ bindsym $mod+r mode "resize"
 #        status_command i3status
 #}
 
-gaps inner 5
-gaps outer 5
+gaps inner 10
+gaps outer 10
+for_window [class="^.*"] border pixel 1
