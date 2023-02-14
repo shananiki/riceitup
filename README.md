@@ -43,16 +43,11 @@ sudo apt install rofi
 ```
 
 **Install rofi power menu**
-*Add ~/.local/bin to PATH*
 ```bash
-PATH=$PATH:~/.local/bin
+sudo cp rofi-power-menu /home/$USER/.local/bin
 ```
 ```bash
-cp rofi-power-menu ~/.local/bin
-```
-```bash
-chmod u+x ~/.local/bin/rofi-power-menu
-chown $USER ~/.local/bin/rofi-power-menu
+sudo chmod u+x /home/$USER/.local/bin/rofi-power-menu && sudo chown $USER /home/$USER/.local/bin/rofi-power-menu
 ```
 
 **Install Dolphin (Debian 11 or Ubuntu)**
@@ -64,6 +59,6 @@ sudo apt install dolphin
 
 If the -c or --config command line argument is specified, it will use the path given there.
 ```bash
-polybar top -c /PATH/TO/FILE
+polybar top -c /home/$USER/.config/polybar/config.ini
 ```
 
