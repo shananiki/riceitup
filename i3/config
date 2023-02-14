@@ -22,12 +22,12 @@ default_floating_border pixel 0
 #polybar
 exec_always --no-startup-id "sh ~/.config/polybar/launch.sh &"
 #hintergrund
-exec_always --no-startup-id feh --bg-scale /home/shana/Bilder/wp.png
+exec_always --no-startup-id feh --bg-scale /home/$USER/Bilder/wp.png
 #compton
 exec_always --no-startup-id "compton -b"
 
 #Screenshots
-#bindsym Print exec --no-startup-id maim "/home/shana/Bilder/$(date)"
+#bindsym Print exec --no-startup-id maim "/home/$USER/Bilder/$(date)"
 
 # This font is widely installed, provides lots of unicode glyphs, right-to-left
 # text rendering and scalability on retina/hidpi displays (thanks to pango).
