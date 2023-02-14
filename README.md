@@ -3,7 +3,7 @@ This is still under development/configuration. If I change something I will add 
 # riceitup
 Hello, this is my personal configuration to rice up my Debian 11 experience.
 ---
-![rice](https://raw.githubusercontent.com/shananiki/riceitup/main/rice2.png)
+![rice](https://raw.githubusercontent.com/shananiki/riceitup/main/screen.png)
 
 
 **Install [Awesome Font 6](https://use.fontawesome.com/releases/v6.2.1/fontawesome-free-6.2.1-desktop.zip)**
