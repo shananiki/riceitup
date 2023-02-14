@@ -64,11 +64,13 @@ polybar top -c /home/$USER/.config/polybar/config.ini
 
 ----------
 
-Installing some better rofi themes [https://gitlab.com/vahnrr/rofi-menus/-/tree/rofi-1.5.4/](Thanks vahnrr)
+**Installing some better rofi themes [Thanks vahnrr](https://gitlab.com/vahnrr/rofi-menus/-/tree/rofi-1.5.4/)**
 
+```bash
 git clone https://gitlab.com/vahnrr/rofi-menus ~/.config/rofi
 chmod +x ~/.config/rofi/scripts/*
 ~/.config/rofi/scripts/rofi-utils set-colorscheme dark-steel-blue
+```
 
 Add ~/.local/bin to PATH
 ```bash
