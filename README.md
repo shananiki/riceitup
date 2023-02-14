@@ -82,4 +82,9 @@ Create symbolic link to rofi scripts
 ln -s ~/.config/rofi/scripts/* ~/.local/bin/
 ```
 
+**Or put the spotlight-dark.rasi in /home/$USER/.local/share/rofi/themes/**
+And set it as default using
+```bash
+rofi-theme-selector
+```
 
