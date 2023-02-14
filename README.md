@@ -6,8 +6,6 @@ Hello, this is my personal configuration to rice up my Debian 11 experience.
 ![rice](https://raw.githubusercontent.com/shananiki/riceitup/main/rice2.png)
 
 
-
-
 **Install [Awesome Font 6](https://use.fontawesome.com/releases/v6.2.1/fontawesome-free-6.2.1-desktop.zip)**
 ```bash
 wget https://use.fontawesome.com/releases/v6.2.1/fontawesome-free-6.2.1-desktop.zip
@@ -44,6 +42,18 @@ sudo apt install polybar
 sudo apt install rofi
 ```
 
+**Install rofi power menu**
+*Add ~/.local/bin to PATH*
+```bash
+PATH=$PATH:~/.local/bin
+```
+```bash
+cp rofi-power-menu ~/.local/bin
+```
+```bash
+chmod u+x ~/.local/bin/rofi-power-menu
+chown $USER ~/.local/bin/rofi-power-menu
+```
 
 **Install Dolphin (Debian 11 or Ubuntu)**
 ```bash
