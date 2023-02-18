@@ -22,12 +22,12 @@ default_floating_border pixel 0
 #polybar
 exec_always --no-startup-id "sh ~/.config/polybar/launch.sh &"
 #hintergrund
-exec_always --no-startup-id feh --bg-scale /home/$USER/Bilder/wp.png
+exec_always --no-startup-id feh --bg-scale /home/shana/Bilder/wp.png
 #compton
 exec_always --no-startup-id "compton -b"
 
 #Screenshots
-#bindsym Print exec --no-startup-id maim "/home/$USER/Bilder/$(date)"
+#bindsym Print exec --no-startup-id maim "/home/shana/Bilder/$(date)"
 
 # This font is widely installed, provides lots of unicode glyphs, right-to-left
 # text rendering and scalability on retina/hidpi displays (thanks to pango).
@@ -64,8 +64,13 @@ bindsym $mod+Shift+q kill
 bindsym $mod+d exec --no-startup-id dmenu_run
 # A more modern dmenu replacement is rofi:
 bindsym $mod+n exec "rofi -modi drun,run -show drun -show-icons"
+# Anderes Menu 
+bindsym $mod+m exec "/home/$USER/.config/rofi/scripts/rofi-apps"
 # Shutdown menu
 bindsym $mod+i exec "rofi -show power-menu -modi power-menu:/home/$USER/.local/bin/rofi-power-menu"
+# Screenshot using maim and xclip
+bindsym $mod+p exec "maim -s | xclip -selection clipboard -t image/png"
+
 
 # There also is i3-dmenu-desktop which only displays applications shipping a
 # .desktop file. It is a wrapper around dmenu, so you need that installed.
@@ -201,4 +206,3 @@ bindsym $mod+r mode "resize"
 
 gaps inner 10
 gaps outer 10
-for_window [class="^.*"] border pixel 1
