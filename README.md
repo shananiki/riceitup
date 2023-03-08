@@ -10,7 +10,7 @@ Hello, this is my personal configuration to rice up my Debian 11 experience.
 ```bash
 wget https://use.fontawesome.com/releases/v6.2.1/fontawesome-free-6.2.1-desktop.zip
 unzip fontawesome-free-6.2.1-desktop.zip
-cd unzip fontawesome-free-6.2.1-desktop
+cd fontawesome-free-6.2.1-desktop
 sudo mv otfs/* /usr/share/fonts/opentype/
 sudo fc-cache -f -v
 ```
@@ -19,7 +19,7 @@ sudo fc-cache -f -v
 ```bash
 wget https://use.fontawesome.com/releases/v5.15.4/fontawesome-free-5.15.4-desktop.zip
 unzip fontawesome-free-5.15.4-desktop.zip
-cd unzip fontawesome-free-5.15.4-desktop
+cd fontawesome-free-5.15.4-desktop
 sudo mv otfs/* /usr/share/fonts/opentype/
 sudo fc-cache -f -v
 ```
